@@ -14,6 +14,14 @@
 		D4E9F4471ABEA60A008FEF39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F4461ABEA60A008FEF39 /* Images.xcassets */; };
 		D4E9F44A1ABEA60A008FEF39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F4481ABEA60A008FEF39 /* LaunchScreen.xib */; };
 		D4E9F4561ABEA60A008FEF39 /* RLPickerDoubleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9F4551ABEA60A008FEF39 /* RLPickerDoubleViewTests.m */; };
+		D4E9F4631ABEA628008FEF39 /* RLPickerDoubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9F4611ABEA628008FEF39 /* RLPickerDoubleView.m */; };
+		D4E9F4641ABEA628008FEF39 /* RLPickerDoubleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F4621ABEA628008FEF39 /* RLPickerDoubleView.xib */; };
+		D4E9F46A1ABEB130008FEF39 /* RLHotelAreaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9F4661ABEB12F008FEF39 /* RLHotelAreaCell.m */; };
+		D4E9F46B1ABEB130008FEF39 /* RLHotelAreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F4671ABEB12F008FEF39 /* RLHotelAreaCell.xib */; };
+		D4E9F46C1ABEB130008FEF39 /* RLPickerDoubleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E9F4691ABEB130008FEF39 /* RLPickerDoubleTableViewCell.m */; };
+		D4E9F46E1ABEB20B008FEF39 /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F46D1ABEB20B008FEF39 /* province.json */; };
+		D4E9F4711ABEB2FC008FEF39 /* img_chengong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F46F1ABEB2FC008FEF39 /* img_chengong@2x.png */; };
+		D4E9F4721ABEB2FC008FEF39 /* img_chengong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E9F4701ABEB2FC008FEF39 /* img_chengong@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,17 @@
 		D4E9F44F1ABEA60A008FEF39 /* RLPickerDoubleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLPickerDoubleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E9F4541ABEA60A008FEF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E9F4551ABEA60A008FEF39 /* RLPickerDoubleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLPickerDoubleViewTests.m; sourceTree = "<group>"; };
+		D4E9F4601ABEA628008FEF39 /* RLPickerDoubleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPickerDoubleView.h; sourceTree = "<group>"; };
+		D4E9F4611ABEA628008FEF39 /* RLPickerDoubleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPickerDoubleView.m; sourceTree = "<group>"; };
+		D4E9F4621ABEA628008FEF39 /* RLPickerDoubleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLPickerDoubleView.xib; sourceTree = "<group>"; };
+		D4E9F4651ABEB12F008FEF39 /* RLHotelAreaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLHotelAreaCell.h; sourceTree = "<group>"; };
+		D4E9F4661ABEB12F008FEF39 /* RLHotelAreaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLHotelAreaCell.m; sourceTree = "<group>"; };
+		D4E9F4671ABEB12F008FEF39 /* RLHotelAreaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLHotelAreaCell.xib; sourceTree = "<group>"; };
+		D4E9F4681ABEB130008FEF39 /* RLPickerDoubleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPickerDoubleTableViewCell.h; sourceTree = "<group>"; };
+		D4E9F4691ABEB130008FEF39 /* RLPickerDoubleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPickerDoubleTableViewCell.m; sourceTree = "<group>"; };
+		D4E9F46D1ABEB20B008FEF39 /* province.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province.json; sourceTree = "<group>"; };
+		D4E9F46F1ABEB2FC008FEF39 /* img_chengong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_chengong@2x.png"; sourceTree = "<group>"; };
+		D4E9F4701ABEB2FC008FEF39 /* img_chengong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_chengong@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +104,7 @@
 				D4E9F43E1ABEA60A008FEF39 /* AppDelegate.m */,
 				D4E9F4401ABEA60A008FEF39 /* ViewController.h */,
 				D4E9F4411ABEA60A008FEF39 /* ViewController.m */,
+				D4E9F45F1ABEA628008FEF39 /* RLPickerDoubleView */,
 				D4E9F4431ABEA60A008FEF39 /* Main.storyboard */,
 				D4E9F4461ABEA60A008FEF39 /* Images.xcassets */,
 				D4E9F4481ABEA60A008FEF39 /* LaunchScreen.xib */,
@@ -97,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D4E9F43A1ABEA60A008FEF39 /* Info.plist */,
+				D4E9F46D1ABEB20B008FEF39 /* province.json */,
 				D4E9F43B1ABEA60A008FEF39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -117,6 +138,23 @@
 				D4E9F4541ABEA60A008FEF39 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4E9F45F1ABEA628008FEF39 /* RLPickerDoubleView */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9F4651ABEB12F008FEF39 /* RLHotelAreaCell.h */,
+				D4E9F4661ABEB12F008FEF39 /* RLHotelAreaCell.m */,
+				D4E9F4671ABEB12F008FEF39 /* RLHotelAreaCell.xib */,
+				D4E9F4681ABEB130008FEF39 /* RLPickerDoubleTableViewCell.h */,
+				D4E9F4691ABEB130008FEF39 /* RLPickerDoubleTableViewCell.m */,
+				D4E9F4601ABEA628008FEF39 /* RLPickerDoubleView.h */,
+				D4E9F4611ABEA628008FEF39 /* RLPickerDoubleView.m */,
+				D4E9F4621ABEA628008FEF39 /* RLPickerDoubleView.xib */,
+				D4E9F46F1ABEB2FC008FEF39 /* img_chengong@2x.png */,
+				D4E9F4701ABEB2FC008FEF39 /* img_chengong@3x.png */,
+			);
+			path = RLPickerDoubleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +238,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E9F4451ABEA60A008FEF39 /* Main.storyboard in Resources */,
+				D4E9F4641ABEA628008FEF39 /* RLPickerDoubleView.xib in Resources */,
 				D4E9F44A1ABEA60A008FEF39 /* LaunchScreen.xib in Resources */,
 				D4E9F4471ABEA60A008FEF39 /* Images.xcassets in Resources */,
+				D4E9F46B1ABEB130008FEF39 /* RLHotelAreaCell.xib in Resources */,
+				D4E9F4711ABEB2FC008FEF39 /* img_chengong@2x.png in Resources */,
+				D4E9F4721ABEB2FC008FEF39 /* img_chengong@3x.png in Resources */,
+				D4E9F46E1ABEB20B008FEF39 /* province.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E9F4421ABEA60A008FEF39 /* ViewController.m in Sources */,
+				D4E9F4631ABEA628008FEF39 /* RLPickerDoubleView.m in Sources */,
+				D4E9F46C1ABEB130008FEF39 /* RLPickerDoubleTableViewCell.m in Sources */,
+				D4E9F46A1ABEB130008FEF39 /* RLHotelAreaCell.m in Sources */,
 				D4E9F43F1ABEA60A008FEF39 /* AppDelegate.m in Sources */,
 				D4E9F43C1ABEA60A008FEF39 /* main.m in Sources */,
 			);

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7uY-cM-JSm" customClass="RLPickerDoubleView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45h-0I-yue">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIl-3V-dUz">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="RFD-7l-bYu"/>
+                            </constraints>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonCancelClick:" destination="7uY-cM-JSm" eventType="touchUpInside" id="fcM-UP-6gf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6I2-SD-Etc">
+                            <rect key="frame" x="520" y="0.0" width="80" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="lyk-J9-VTq"/>
+                            </constraints>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonSureClick:" destination="7uY-cM-JSm" eventType="touchUpInside" id="rYN-eT-wXO"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AC3-kX-oiY">
+                            <rect key="frame" x="279" y="14" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="6I2-SD-Etc" secondAttribute="bottom" id="3q9-PP-JIV"/>
+                        <constraint firstAttribute="bottom" secondItem="mIl-3V-dUz" secondAttribute="bottom" id="4y8-fB-DU7"/>
+                        <constraint firstItem="mIl-3V-dUz" firstAttribute="leading" secondItem="45h-0I-yue" secondAttribute="leading" id="5XF-9c-5bC"/>
+                        <constraint firstItem="mIl-3V-dUz" firstAttribute="top" secondItem="45h-0I-yue" secondAttribute="top" id="7ba-7G-Z6V"/>
+                        <constraint firstItem="6I2-SD-Etc" firstAttribute="top" secondItem="45h-0I-yue" secondAttribute="top" id="Gh2-xo-ZVY"/>
+                        <constraint firstAttribute="centerY" secondItem="AC3-kX-oiY" secondAttribute="centerY" id="KFi-RW-Cfw"/>
+                        <constraint firstAttribute="height" constant="50" id="Z0V-FS-4Nh"/>
+                        <constraint firstAttribute="centerX" secondItem="AC3-kX-oiY" secondAttribute="centerX" id="dZj-9L-4oR"/>
+                        <constraint firstAttribute="trailing" secondItem="6I2-SD-Etc" secondAttribute="trailing" id="mH4-DW-dgw"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ufN-kw-0qH">
+                    <rect key="frame" x="0.0" y="50" width="120" height="550"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="57A-ce-Rwy"/>
+                    </constraints>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="I2k-Bn-Ade">
+                    <rect key="frame" x="120" y="50" width="480" height="550"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ufN-kw-0qH" firstAttribute="leading" secondItem="7uY-cM-JSm" secondAttribute="leading" id="EQ4-oO-lEU"/>
+                <constraint firstItem="45h-0I-yue" firstAttribute="leading" secondItem="7uY-cM-JSm" secondAttribute="leading" id="KR6-rN-ohH"/>
+                <constraint firstItem="I2k-Bn-Ade" firstAttribute="leading" secondItem="ufN-kw-0qH" secondAttribute="trailing" id="LWW-lH-lG2"/>
+                <constraint firstAttribute="bottom" secondItem="I2k-Bn-Ade" secondAttribute="bottom" id="Nti-jD-gXl"/>
+                <constraint firstItem="ufN-kw-0qH" firstAttribute="top" secondItem="45h-0I-yue" secondAttribute="bottom" id="Sm4-ad-2Sd"/>
+                <constraint firstItem="45h-0I-yue" firstAttribute="top" secondItem="7uY-cM-JSm" secondAttribute="top" id="eb8-5L-no9"/>
+                <constraint firstItem="I2k-Bn-Ade" firstAttribute="top" secondItem="45h-0I-yue" secondAttribute="bottom" id="i82-of-A1m"/>
+                <constraint firstAttribute="bottom" secondItem="ufN-kw-0qH" secondAttribute="bottom" id="jnM-z6-3k0"/>
+                <constraint firstAttribute="trailing" secondItem="I2k-Bn-Ade" secondAttribute="trailing" id="md2-18-qvd"/>
+                <constraint firstAttribute="trailing" secondItem="45h-0I-yue" secondAttribute="trailing" id="yta-m9-jQ8"/>
+            </constraints>
+            <connections>
+                <outlet property="buttonCancel" destination="mIl-3V-dUz" id="Vv0-au-Ba1"/>
+                <outlet property="buttonSure" destination="6I2-SD-Etc" id="bFO-mu-0og"/>
+                <outlet property="labelTitle" destination="AC3-kX-oiY" id="3Fl-0F-dg2"/>
+                <outlet property="tableViewDetail" destination="I2k-Bn-Ade" id="W7U-AK-q41"/>
+                <outlet property="tableViewMain" destination="ufN-kw-0qH" id="Nvm-el-G9n"/>
+            </connections>
+            <point key="canvasLocation" x="554" y="261"/>
+        </view>
+    </objects>
+</document>
